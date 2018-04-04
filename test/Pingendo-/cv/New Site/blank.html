@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css"> </head>
+
+<body>
+  <section id="header">
+    <div class="pi-draggable text-center w-100 h-100" style="background-image: url('../images/lyon.jpg');background-repeat:no-repeat;background-position:center center;background-size:cover;">
+      <div class="container d-flex align-self-center align-items-center flex-column py-5 justify-content-end col-md-9 h-75">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center align-items-center flex-column align-self-center">
+            <h1 class="display-3 text-uppercase text-white">Khenny DEMBY</h1>
+            <p class="text-white">Développeur web curieux autonome, motivé par le besoin d'en apprendre toujours plus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="w-100 h-100">
+    <br>
+    <div class="row">
+      <div class="col-sm-3">
+        <h1 class="text-center"><b> SKILLS </b></h1>
+        <br>
+        <ul>
+          <li>WORDPRESS</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          <br>
+          <li>LARAVEL</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+          <br>
+          <li>HTML/CSS</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          <br>
+          <li>JAVASCRIPT</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">45%</div>
+          </div>
+          <br>
+          <li>PHP</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">40%</div>
+          </div>
+          <br>
+          <li>APACHE</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          <br>
+          <li>MySQL</li>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h1 class="text-center"><b> EXPERIENCES </b></h1>
+        <br>
+        <ul>
+          <li>
+            <div class="blockquote">
+              <p class="mb-0">Janvier 2018/Mars 2018- Rose Boutique</p>
+              <div class="blockquote-footer">Développement Site internet entreprise sous Wordpress</div>
+              <div class="blockquote-footer">Mise en place plateforme solution ecommerce</div>
+              <div class="blockquote-footer">SEO</div>
+            </div>
+          </li>
+          <li>
+            <div class="blockquote">
+              <p class="mb-0">Avril 2017/Octobre 2017- Service Civique/ Chargé d'animation fracture numérique</p>
+              <div class="blockquote-footer">Formation jeunes, mise en place ateliers numérique</div>
+              <div class="blockquote-footer">Assistance aux référents</div>
+              <div class="blockquote-footer">Communication (réseaux sociaux)</div>
+            </div>
+          </li>
+          <li>
+            <div class="blockquote">
+              <p class="mb-0">2016/2017- Alernance Responsable Systèmes d'information- Schneider Electric</p>
+              <div class="blockquote-footer">Réalisation de reporting</div>
+              <div class="blockquote-footer">Optimisation, extraction et traitement de données</div>
+              <div class="blockquote-footer">SEO</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h1 class="text-center"><b> OTHERS </b></h1>
+        <p> <i class="fa fa-comment fa-2x"></i>
+          <br> Français -maternelle
+          <br>Anglais -courant
+          <br>Espagnol -scolaire </p> <i class="fa fa-gamepad fa-2x"></i> &nbsp;
+        <a href="https://github.com/SkembyD"><i class="fa fa-github fa-2x"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-offset-2 d-flex flex-column mx-3 col-lg-12">
+        <h1 class="text-center"><b>Contact</b></h1>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+          <div class="controls">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group"> <label for="form_name">Prénom *</label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Saisissez votre prénom *" required="required" data-error="Firstname is required."> </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group"> <label for="form_lastname">Nom *</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Saisissez votre nom *" required="required" data-error="Lastname is required."> </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group"> <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Entrez votre email *" required="required" data-error="Valid email is required."> </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group"> <label for="form_phone">Portable</label>
+                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Entrez votre numéro"> </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Votre message *" rows="4" required="required" data-error="Please,leave us a message."></textarea> </div>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Envoyez le message"> </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
